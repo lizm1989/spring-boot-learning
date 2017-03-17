@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-aop/spring-boot-aop.iml" filepath="$PROJECT_DIR$/spring-boot-aop/spring-boot-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-banner/spring-boot-banner.iml" filepath="$PROJECT_DIR$/spring-boot-banner/spring-boot-banner.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-learning.iml" filepath="$PROJECT_DIR$/spring-boot-learning.iml" />
     </modules>
   </component>

@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-aop" />
+        <module name="spring-boot-banner" />
         <module name="spring-boot-learning" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-aop" target="1.8" />
+      <module name="spring-boot-banner" target="1.8" />
       <module name="spring-boot-learning" target="1.5" />
     </bytecodeTargetLevel>
   </component>
