@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/spring-boot-aop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-banner" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-security" charset="UTF-8" />
   </component>
 </project>

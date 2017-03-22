@@ -8,13 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-aop" />
         <module name="spring-boot-banner" />
-        <module name="spring-boot-learning" />
+        <module name="spring-boot-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-aop" target="1.8" />
       <module name="spring-boot-banner" target="1.8" />
       <module name="spring-boot-learning" target="1.5" />
+      <module name="spring-boot-security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
