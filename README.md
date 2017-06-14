@@ -3,7 +3,7 @@
 ###  工程生成依赖：http://start.spring.io/
 ###   每个工程的说明文件地址：/resources/static/readme.txt
 
-##### spring-boot-aop，使用aop，面向切面编程
+##### 1、spring-boot-aop，使用aop，面向切面编程
     模块选择：web、aop
     application.yml配置
     spring
@@ -12,16 +12,14 @@
             proxy-target-class: false，//如果需要使用cglib需要设置为true
     
     
-    具体例子可查看：
-    //
-    https://github.com/lizm1989/spring-boot-learning/blob/master/spring-boot-aop/src/main/java/com/spring/boot/learning/config/WebAspect.java
-    //打印方法访问时间
-    https://github.com/lizm1989/spring-boot-learning/blob/master/spring-boot-aop/src/main/java/com/spring/boot/learning/config/WebRuntimeAspect.java
+   具体例子可查看：
+    [WebAspect.java](https://github.com/lizm1989/spring-boot-learning/blob/master/spring-boot-aop/src/main/java/com/spring/boot/learning/config/WebAspect.java)
+    [WebRuntimeAspect.java](https://github.com/lizm1989/spring-boot-learning/blob/master/spring-boot-aop/src/main/java/com/spring/boot/learning/config/WebRuntimeAspect.java)
     
     
-##### spring-boot-banner，自定义   resources/banner.txt
+##### 2、spring-boot-banner，自定义   resources/banner.txt
 
-    banner.txt内容如下：
+    banner.txt内容如下
     
     ${AnsiColor.BRIGHT_YELLOW}
     ////////////////////////////////////////////////////////////////////
@@ -51,6 +49,6 @@
     Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
 
 
-####  spring-boot-security，安全控制
+####  3、spring-boot-security，安全控制
 
 
