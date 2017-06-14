@@ -12,9 +12,12 @@
             proxy-target-class: false，//如果需要使用cglib需要设置为true
     
     
-   具体例子可查看：
-    [WebAspect.java](https://github.com/lizm1989/spring-boot-learning/blob/master/spring-boot-aop/src/main/java/com/spring/boot/learning/config/WebAspect.java)
-    [WebRuntimeAspect.java](https://github.com/lizm1989/spring-boot-learning/blob/master/spring-boot-aop/src/main/java/com/spring/boot/learning/config/WebRuntimeAspect.java)
+   示例代码可查看：
+
+[WebAspect.java](https://github.com/lizm1989/spring-boot-learning/blob/master/spring-boot-aop/src/main/java/com/spring/boot/learning/config/WebAspect.java)
+    
+    
+ [WebRuntimeAspect.java](https://github.com/lizm1989/spring-boot-learning/blob/master/spring-boot-aop/src/main/java/com/spring/boot/learning/config/WebRuntimeAspect.java)
     
     
 ##### 2、spring-boot-banner，自定义   resources/banner.txt
@@ -50,5 +53,12 @@
 
 
 ####  3、spring-boot-security，安全控制
-
+    依赖：
+    <dependency>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-starter-security</artifactId>
+    </dependency>
+    
+    
+    
 
