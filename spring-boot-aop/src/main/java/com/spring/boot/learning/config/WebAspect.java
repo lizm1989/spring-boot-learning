@@ -15,6 +15,11 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Created by zhimingli on 2017-3-17 0017.
+ *
+ * @Aspect 定义一个切面类
+ * @Pointcut 定义一个切入点，可以定义路径，也可以是一个注解
+ *
+ *
  */
 @Aspect
 @Component
