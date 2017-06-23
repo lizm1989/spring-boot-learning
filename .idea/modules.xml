@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/learning.iml" filepath="$PROJECT_DIR$/learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-aop/spring-boot-aop.iml" filepath="$PROJECT_DIR$/spring-boot-aop/spring-boot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-banner/spring-boot-banner.iml" filepath="$PROJECT_DIR$/spring-boot-banner/spring-boot-banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-crontab/spring-boot-crontab.iml" filepath="$PROJECT_DIR$/spring-boot-crontab/spring-boot-crontab.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-security/spring-boot-security.iml" filepath="$PROJECT_DIR$/spring-boot-security/spring-boot-security.iml" />
     </modules>
   </component>
