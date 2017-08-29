@@ -11,6 +11,7 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -22,6 +23,7 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
 
 
 /.classpath
