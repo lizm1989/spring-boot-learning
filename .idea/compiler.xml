@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-aop" />
         <module name="spring-boot-banner" />
+        <module name="spring-boot-crontab" />
+        <module name="spring-boot-redis" />
         <module name="spring-boot-security" />
       </profile>
     </annotationProcessing>
@@ -15,6 +17,8 @@
       <module name="learning" target="1.5" />
       <module name="spring-boot-aop" target="1.8" />
       <module name="spring-boot-banner" target="1.8" />
+      <module name="spring-boot-crontab" target="1.8" />
+      <module name="spring-boot-redis" target="1.8" />
       <module name="spring-boot-security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
