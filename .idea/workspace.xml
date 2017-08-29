@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b45772ac-71af-4e95-878e-cfbbaa99b819" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-redis/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-redis/src/main/java/com/spring/boot/learning/springbootredis/repository/StringRedisTemp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-aop/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/spring-boot-aop/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-banner/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/spring-boot-banner/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-crontab/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/spring-boot-crontab/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-redis/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/spring-boot-redis/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-boot-banner/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,8 +63,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-redis/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="322">
+              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -192,6 +184,12 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="322" />
+    <option name="y" value="144" />
+    <option name="width" value="1280" />
+    <option name="height" value="726" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -215,94 +213,6 @@
             <path>
               <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-crontab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-crontab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootredis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootredis" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootredis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -507,7 +417,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503987285568</updated>
-      <workItem from="1503987288010" duration="1608000" />
+      <workItem from="1503987288010" duration="2323000" />
     </task>
     <servers />
   </component>
@@ -517,7 +427,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1608000" />
+    <option name="totallyTimeSpent" value="2323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -686,8 +596,8 @@
         <state relative-caret-position="138">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="false" />
+            <element signature="e#332#333#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -787,8 +697,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-redis/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="322">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
       </provider>
