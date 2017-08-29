@@ -1,30 +1,37 @@
-##### 2、spring-boot-banner，自定义   resources/banner.txt
-
-    banner.txt内容如下
+####  4、spring-boot-crontab，定时任务
+    启动类添加：@EnableScheduling 注解
+        @SpringBootApplication
+        @EnableScheduling
+        public class SpringBootCrontabApplication {
+        
+        	public static void main(String[] args) {
+        		SpringApplication.run(SpringBootCrontabApplication.class, args);
+        	}
+        }
     
-    ${AnsiColor.BRIGHT_YELLOW}
-    ////////////////////////////////////////////////////////////////////
-    //                          _ooOoo_                               //
-    //                         o8888888o                              //
-    //                         88" . "88                              //
-    //                         (| ^_^ |)                              //
-    //                         O\  =  /O                              //
-    //                      ____/`---'\____                           //
-    //                    .'  \\|     |//  `.                         //
-    //                   /  \\|||  :  |||//  \                        //
-    //                  /  _||||| -:- |||||-  \                       //
-    //                  |   | \\\  -  /// |   |                       //
-    //                  | \_|  ''\---/''  |   |                       //
-    //                  \  .-\__  `-`  ___/-. /                       //
-    //                ___`. .'  /--.--\  `. . ___                     //
-    //              ."" '<  `.___\_<|>_/___.'  >'"".                  //
-    //            | | :  `- \`.;`\ _ /`;.`/ - ` : | |                 //
-    //            \  \ `-.   \_ __\ /__ _/   .-` /  /                 //
-    //      ========`-.____`-.___\_____/___.-`____.-'========         //
-    //                           `=---='                              //
-    //      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        //
-    //            佛祖保佑       永不宕机     永无BUG                  //
-    ////////////////////////////////////////////////////////////////////
-    ${AnsiColor.BRIGHT_RED}
-    Application Version: ${application.version}${application.formatted-version}
-    Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
+    2种方法：
+    一、@Scheduled(cron = "*/6 * * * * ?")
+      @Component
+      public class SchedulingTask {
+      
+          private int count = 0;
+      
+          //每隔6秒打印一次
+          @Scheduled(cron = "*/6 * * * * ?")
+          private void process() {
+              System.out.println("SchedulingTask这是第几次了：" + count++);
+          }
+      }
+     
+     二、 @Scheduled(fixedRate = 6000)
+        @Component
+        public class SchedulingFixedRateTask {
+        
+            private int count;
+        
+            //每隔6秒打印一次
+            @Scheduled(fixedRate = 6000)
+            private void printCount() {
+                System.out.println("SchedulingFixedRateTask这是第几次了：" + count++);
+            }
+        }
