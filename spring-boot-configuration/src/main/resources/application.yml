@@ -1,0 +1,15 @@
+server:
+  port: 7878
+
+
+
+user:
+  firstname:  lzmlzm
+  phone: 156521321
+  desc:  my name is ${user.firstname}
+
+
+#¶àÅäÖÃÎÄ¼ş
+spring:
+  profiles:
+    active: com

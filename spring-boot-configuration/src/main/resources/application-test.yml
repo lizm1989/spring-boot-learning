@@ -1,0 +1,8 @@
+server:
+  port: 7878
+
+
+user:
+  firstname:  lzmlzm-test
+  phone: 156521321-test
+  desc:  my name is ${user.firstname} test
